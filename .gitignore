@@ -40,7 +40,6 @@ dist/
 
 # Ignore coverage reports
 coverage/
-
 # Ignore IDE folders
 .idea/
 *.sublime-workspace
@@ -51,3 +50,6 @@ Certificates/*.pdf
 Certificates/*.png
 Certificates/*.jpg
 Certificates/*.jpeg
+
+#Ignore virtual environments
+venv/
