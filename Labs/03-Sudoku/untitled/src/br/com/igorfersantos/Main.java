@@ -4,10 +4,12 @@ import br.com.igorfersantos.model.Board;
 import br.com.igorfersantos.model.Space;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
