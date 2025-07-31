@@ -1,5 +1,6 @@
 package br.com.igorfernandes.springdesignpattern.model;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 /**
@@ -10,6 +11,7 @@ import jakarta.persistence.Id;
  *
  * @author Igor
  */
+@Entity
 public class Address {
 
     @Id

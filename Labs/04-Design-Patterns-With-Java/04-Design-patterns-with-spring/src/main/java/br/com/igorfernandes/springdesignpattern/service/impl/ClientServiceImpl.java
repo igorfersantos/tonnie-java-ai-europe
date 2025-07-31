@@ -22,12 +22,12 @@ import org.springframework.stereotype.Service;
 public class ClientServiceImpl implements ClientService {
 
 	// Singleton: Inject Spring components with @Autowired.
-	@Autowired
-	private ClientRepository clienteRepository;
-	@Autowired
-	private AddressRepository enderecoRepository;
-	@Autowired
-	private ViaCepService viaCepService;
+//	@Autowired
+//	private ClientRepository clienteRepository;
+//	@Autowired
+//	private AddressRepository enderecoRepository;
+//	@Autowired
+//	private ViaCepService viaCepService;
 	// Strategy: Implement the methods defined in the interface
 	// Facade: Abstract the dependencies with subsystems, providing a simple interface.
 
